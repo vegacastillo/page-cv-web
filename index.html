@@ -22,6 +22,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/skills.css">
     <!-- js -->
     <script defer src="js/app.js"></script>
     <!-- Google Fonts -->
@@ -31,28 +33,64 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Rubik+Dirt&display=swap"
         rel="stylesheet">
 </head>
-<header class="topheader">
-    <nav class="topnav">
-        <a href="#" class="logo">
-            <img width="50" height="50" src="image/logo.png" alt="vegacastillo-logo">
-            <div>Ernesto Vega Castillo <br> { code }</div>
-        </a>
-        <button class="open-menu" aria-label="Abrir menú"><img width="40" height="40" src="image/hamburger-icon.svg"
-                alt="abrir menú" /></button>
-        <ul class="menu">
-            <button class="close-menu" aria-label="Cerrar menú"><img width="35" height="35" src="image/close-icon.svg"
-                    alt="cerrar menú" /></button>
-            <li><a href="#Profile" class="selected">Perfil</a></li>
-            <li><a href="#Experience">Experiencia</a></li>
-            <li><a href="#Skills">Herramientas</a></li>
-            <li><a href="#Contact">Contactos</a></li>
-        </ul>
-    </nav>
-</header>
-
 
 <body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img width="50" height="50" src="image/logo.png" alt="vegacastillo-logo">
+                <div>Ernesto Vega Castillo <br> { code }</div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menú"><img width="40" height="40" src="image/hamburger-icon.svg"
+                    alt="abrir menú" /></button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú"><img width="35" height="35"
+                        src="image/close-icon.svg" alt="cerrar menú" /></button>
+                <li><a href="#Profile" class="selected">Perfil</a></li>
+                <li><a href="#Experience">Experiencia</a></li>
+                <li><a href="#Skills">Herramientas</a></li>
+                <li><a href="#Contact">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile">
+            <div class="prifile-info">
+                <h1 class="profile-title">Hola soy <br>Ernesto Vega Castillo</h1>
+                <p class="profile-details">
+                    Soy Consultor en Planificación Financiera e Inteligencia de Negocios, con más de una década de
+                    experiencia en automatización de procesos, análisis de datos financieros e integración de
+                    tecnologías
+                    avanzadas. Mi enfoque se centra en optimizar rentabilidad, mejorar la gestión del flujo de efectivo
+                    y
+                    reducir costos, aplicando técnicas de ciencia de datos, modelado financiero y automatización con
+                    herramientas modernas.
+                </p>
+                <button class="profile-btn">
+                    Descargar cv
+                </button>
+            </div>
+            <span class="profile-img-section">
+                <img class="profile-img" src="image/Fotocv.png" alt="contador-publico">
+                <div class="profile-img-line"></div>
+            </span>
+        </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding"></div>
+    <section class="skills">
+        <h2 class="skills-title">Habilidades</h2>
+        <ul class="skills-list">
+            <li class="skills-skill">Python</li>
+            <li class="skills-skill">R</li>
+            <li class="skills-skill">SQL</li>
+            <li class="skills-skill">Excel</li>
+            <li class="skills-skill">Power Query</li>
+            <li class="skills-skill">Power BI</li>
+            <li class="skills-skill">Looker Studio</li>
+        </ul>
+    </section>
 
 
 
@@ -62,7 +100,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>

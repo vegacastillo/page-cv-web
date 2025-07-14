@@ -5,6 +5,8 @@
     left: 0;
     top: 0;
     width: 100%;
+    z-index: 100;
+    /* para que la foto quede por debajo */
 }
 
 .topnav {
@@ -97,6 +99,7 @@
         background-color: var(--menu-mobile-background-color);
         height: 100%;
         overflow-y: auto;
+
         opacity: 0;
         pointer-events: none;
         transition: opacity 0.3s;
@@ -120,14 +123,9 @@
         cursor: pointer;
     }
 
-    .open-menu {
-        align-self: flex-end;
-        padding: 0 8px 53px 0;
-    }
-
     .close-menu {
         align-self: flex-end;
-        padding: 20px 20px;
+        padding: 20px 18px;
     }
 
     .menu_opened {
