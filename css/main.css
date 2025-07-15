@@ -8,6 +8,14 @@
     --menu-mobile-background-color: #00b9aa;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 70px;
+}
+
 body {
     font-family: "Quicksand", sans-serif;
     background-color: var(--theme-color);
