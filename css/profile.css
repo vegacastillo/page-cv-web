@@ -8,7 +8,6 @@
     width: 80%;
     /*porcentaje de la pag*/
     max-width: 300px;
-    transform: scaleX(-1);
 }
 
 .profile-img-section {
@@ -24,7 +23,8 @@
     /*posicionada con respecto al primer padre*/
     width: 100%;
     left: 0;
-    bottom: 0;
+    bottom: 0px;
+    opacity: 0;
 }
 
 .profile {
@@ -75,6 +75,7 @@
         width: 100%;
         /*porcentaje de la pag*/
         max-width: 350px;
+        transform: scaleX(-1);
     }
 
     .profile {
