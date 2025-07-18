@@ -11,7 +11,7 @@
     <!-- Titulo -->
     <title>Ernesto Vega Castillo</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <link rel="icon" type="image/x-icon" href="image/icono.ico">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
@@ -61,15 +61,16 @@
             <div class="prifile-info">
                 <h1 class="profile-title">Hola soy <br>Ernesto Vega Castillo</h1>
                 <p class="profile-details">
-                    Soy Licenciado en Contaduría Pública y Consultor en Planificación Financiera e Inteligencia de
+                    Especialista en Derecho Tributario y Consultor en Planificación Financiera e Inteligencia de
                     Negocios, con más de una década de experiencia en automatización de procesos, análisis de datos
                     financieros e integración de tecnologías avanzadas. Mi enfoque se centra en optimizar rentabilidad,
                     mejorar la gestión del flujo de efectivo y reducir costos, aplicando técnicas de ciencia de datos,
                     modelado financiero y automatización con herramientas modernas.
                 </p>
-                <button class="profile-btn">
-                    Descargar cv
-                </button>
+                <!--button class="profile-btn">Descargar cv</button-->
+                <a class="profile-btn" href="https://github.com/vegacastillo" target="_blank"
+                    rel="noopener noreferrer">Descargar cv</a>
+                <!--a class="profile-btn" href="/2025-cv-vegacastillo.pdf" download>Descargar cv</a-->
             </div>
             <span class="profile-img-section">
                 <img class="profile-img" src="image/professional-photo.png" alt="contador-publico">
@@ -79,7 +80,7 @@
     </div>
 
     <section class="experiences" id="experiences">
-        <img src="image/wave 2.svg" alt="división" class="wave">
+        <img src="image/wave 4.svg" alt="división" class="wave">
         <div class="experiences-body">
             <h2 class="experiences-title">Experiencias</h2>
             <div class="experiences-grid">
@@ -138,12 +139,8 @@
                 </div>
             </div>
         </div>
-        <img src="image/wave 2.svg" alt="división" class="wave wave-bottom">
+        <img src="image/wave 4.svg" alt="división" class="wave wave-bottom">
     </section>
-
-
-
-
 
     <div class="horizontal-padding vertical-padding">
         <section class="skills" id="skills">
@@ -170,14 +167,14 @@
                 </div>
                 <div class="contact-details-group">
                     <p class="contac-label">e-mail:</p>
-                    <p class="contact-text">vegaernes-100@yahoo.com</p>
+                    <p class="contact-text">info@ven-taxes.com</p>
                 </div>
                 <div class="contact-details-group">
                     <p class="contact-text">Mi objetivo es ser su mejor aliado en la elaboración de planes estratégicos,
                         la creación de presupuestos y la realización de análisis financieros. <br>¡¡ Hablemos !!</p>
                 </div>
             </div>
-            <form class="contact-form">
+            <form class="contact-form" name="contact" netlify>
                 <div class="contact-form-group">
                     <label for="name">Nombre</label>
                     <input required type="text" name="name" id="name">
