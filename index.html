@@ -41,7 +41,7 @@
         <nav class="topnav">
             <a href="#" class="logo">
                 <img width="50" height="50" src="image/logo.png" alt="vegacastillo-logo">
-                <div>Ernesto Vega Castillo <br> Licenciado en Contaduría | Data Analyst</div>
+                <div>Ernesto Vega Castillo <br> {contador público | Data Analyst}</div>
             </a>
             <button class="open-menu" aria-label="Abrir menú"><img width="40" height="40" src="image/hamburger-icon.svg"
                     alt="abrir menú" /></button>
@@ -68,8 +68,9 @@
                     modelado financiero y automatización con herramientas modernas.
                 </p>
                 <!--button class="profile-btn">Descargar cv</button-->
-                <a class="profile-btn" href="https://github.com/vegacastillo" target="_blank"
-                    rel="noopener noreferrer">Descargar cv</a>
+                <a class="profile-btn"
+                    href="https://drive.google.com/uc?export=download&id=18xR_BoPJWDEOxAtGJuR5SWZvphQZPNTx"
+                    download="cv-vegacastillo">Descargar cv</a>
                 <!--a class="profile-btn" href="/2025-cv-vegacastillo.pdf" download>Descargar cv</a-->
             </div>
             <span class="profile-img-section">
@@ -87,7 +88,7 @@
                 <div class="empty"></div>
                 <div class="line"></div>
                 <div class="experience">
-                    <div class="experience-date">2025-02 / actualidad</div>
+                    <div class="experience-date">2025-feb / actualidad</div>
                     <div class="experience-company">Chicks Group Inc.</div>
                     <div class="experience-position">Financial Associate Contractor - Data Analyst (Global Consulting /
                         Remote)</div>
@@ -103,7 +104,7 @@
                     </div>
                 </div>
                 <div class="experience experience_left">
-                    <div class="experience-date">2023-07 / actualidad</div>
+                    <div class="experience-date">2023-jul / actualidad</div>
                     <div class="experience-company">PF-IN, Sociedad Civil</div>
                     <div class="experience-position">Consultor de Planificación Financiera e Inteligencia de Negocios
                     </div>
@@ -123,7 +124,7 @@
                 <div class="empty"></div>
                 <div class="line"></div>
                 <div class="experience">
-                    <div class="experience-date">2022-02 / 2023-09</div>
+                    <div class="experience-date">2022-feb / 2023-sep</div>
                     <div class="experience-company">Banesco Seguros, C.A.</div>
                     <div class="experience-position">Coordinador de Asesoría Tributaria - Data Analyst</div>
                     <div class="experience-description">
@@ -151,7 +152,11 @@
                 <li class="skills-skill">SQL</li>
                 <li class="skills-skill">Excel</li>
                 <li class="skills-skill">Power Query</li>
+                <li class="skills-skill">DAX</li>
+                <li class="skills-skill">VBA</li>
                 <li class="skills-skill">Power BI</li>
+                <li class="skills-skill">Google Sheets</li>
+                <li class="skills-skill">Apps Script</li>
                 <li class="skills-skill">Looker Studio</li>
             </ul>
         </section>
@@ -174,7 +179,8 @@
                         la creación de presupuestos y la realización de análisis financieros. <br>¡¡ Hablemos !!</p>
                 </div>
             </div>
-            <form class="contact-form" name="contact" netlify>
+            <form class="contact-form" name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact" />
                 <div class="contact-form-group">
                     <label for="name">Nombre</label>
                     <input required type="text" name="name" id="name">
