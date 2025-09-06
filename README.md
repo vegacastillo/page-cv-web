@@ -25,5 +25,5 @@ Minimalista, funcional y directo al grano.
 
 ```bash
 git clone https://github.com/vegacastillo/page-cv-web.git
-cd cv-netlify
+cd page-cv-web
 # Abre el archivo index.html en tu navegador
