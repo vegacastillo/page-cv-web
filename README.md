@@ -1,4 +1,5 @@
-# 💼 CV Profesional – HTML + Formulario flotando en Netlify 🎈
+## 💼 CV Profesional – HTML + Formulario flotando en Netlify 🎈
+![License: MIT](https://img.shields.io/badge/License-MIT-magenta.svg)
 
 Este proyecto es mi currículum profesional construido en HTML puro, con un formulario de contacto integrado y desplegado en Netlify. 
 Minimalista, funcional y directo al grano.
